@@ -1,2 +1,2 @@
 # cp
-Competetive programming archive
+Competetive programming archive.
