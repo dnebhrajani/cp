@@ -26,6 +26,17 @@ std::vector<int> insert_sort(std::vector<int>& v)
                 swap(x[i], x[i + 1]);
             }
         }
-        
     }
+    return x;
+}
+
+int main()
+{
+    std::vector<int> a = {4, 5, 19, 7, 2, 16};
+    std::vector<int> output = insert_sort(a);
+    for(int i = 0; i < a.size(); ++i)
+    {
+        std::cout << output[i] << " ";
+    }
+    std::cout << "\n";
 }
